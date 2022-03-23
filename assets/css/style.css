@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Font1';
+    src: url('..assets/Fonts/free-fa-brands-400.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url(../Fonts/free-fa-regular-400.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Font3;
+    src: url('../Fonts/free-fa-solid-900.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Font4;
+    src: url('../Fonts/jizaRExUiTo99u79D0KExQ.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Font5;
+    src: url('../Fonts/jizfRExUiTo99u79B_mh0O6tLQ.woff2') format('woff2');
+}
+
+
+/*body {
+    font-family: font_index;
+}*/
+
+.part1 {
+    font-size: 35px;
+}
+
+.part1 img {
+    width: 15%;
+}
+
+.part1 a {
+    color: white;
+}
+
+.part1 a:hover {
+    color: #98a5a5;
+}
+
+.part2 {
+    font-family: 'Font4';
+    font-size: 15px;
+    text-align: right;
+}
+
+.part2 a {
+    color: white;
+}
+
+.part2 img {
+    width: 3%;
+    filter: invert(1);
+}
+
+.part2 a:hover {
+    color: #98a5a5;
+}
+
+
+/* corp du du site web */
+
+
+/* ____________________________________________________________________________________ */
+
+
+/* pour la paga index */
+
+
+/* ____________________________________________________________________________________ */
+
+
+/* partie 1 */
+
+.how {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 5px;
+}
+
+
+/* partie 2 */
+
+.event-img {
+    padding-top: 20px;
+}
+
+.img-arrondie {
+    float: right;
+}
+
+.img-arrondie img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.event-img button {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+}
+
+.event_lien {
+    width: 75%;
+    padding: 10px 1%;
+}
+
+
+/* _________________________________________________________________________________________________ */
+
+
+/* pour la page search */
+
+
+/* __________________________________________________________________________________________________ */
+
+.search_search button {
+    border: none;
+    background-color: #1b31f8;
+    color: white;
+}
+
+.clear_search button {
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+
+/* _________________________________________________________________________________________________ */
+
+
+/* pour la page about */
+
+
+/* __________________________________________________________________________________________________ */
+
+.apply_about {
+    color: white;
+    background-color: #509bd7;
+}
+
+.apply_about:hover {
+    background-color: #1b31f8;
+}
+
+.clickhere_about a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+.clickhere_about a:hover {
+    text-decoration: underline;
+}
+
+
+/* style et animation de footer*/
+
+footer button {
+    background-color: #444;
+    color: white;
+    padding-right: 1px;
+}
+
+footer input {
+    border: solid 0.5px grey;
+    background-color: black;
+    border-radius: 2px;
+    padding-left: 1px;
+}
+
+.en-ligne a {
+    font-family: 'font5';
+    color: white;
+}
+
+.en-ligne a:hover {
+    color: #98a5a5;
+}
+
+.footer-none>.col-3 a,
+.footer-none>.col-5 a {
+    text-decoration: none;
+}
+
+.footer-none>.col-3 a:hover,
+.footer-none>.col-5 a:hover {
+    text-decoration: underline;
+}
+
+.rs a {
+    color: white;
+}
+
+.rs a:hover {
+    color:  #509bd7;
+    ;
+}
+
+.rs img {
+    width: 20px;
+}
+
+.copieright {
+    font-size: 15px;
+}
+
+@media screen and (max-width:960px) {
+    /* __________________________________________________________ */
+    /* pour le header */
+    /* ___________________________________________________________ */
+    .part1,
+    .part2 {
+        text-align: center;
+        padding: 10px 0;
+    }
+    /* ___________________________________________________________ */
+    /* pour le contenue de index (mbola mila amboarina fa tsy mety ny responsive) */
+    /* ____________________________________________________________ */
+    /* pour la partie 2 */
+    .partie2 {
+        display: block;
+        font-size: 15px;
+    }
+    .partie2-1 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .partie2-1>.img-arrondie {
+        width: 400%;
+    }
+    .event-img {
+        position: absolute;
+        padding-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .img-arrondie img {
+        width: 100%;
+        height: auto;
+        border-radius: 10%;
+    }
+    .event-img {
+        width: 60%;
+    }
+    .event_lien {
+        display: block;
+        margin-right: -100px;
+        margin-top: 100px;
+    }
+    .event-img button {
+        background-color: rgba(255, 255, 255, 0.001);
+        border: none;
+    }
+    /* pour la page search */
+    .grans_input>.l_input {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        width: 80%;
+    }
+    .subject_input {
+        float: left;
+    }
+    .initial_input {
+        float: right;
+        text-align: left;
+    }
+    .un_sur3 img {
+        width: 25%;
+    }
+    /* ______________________________________________________ */
+    /* pour le footer */
+    /* _______________________________________________________ */
+    .footer-none {
+        display: none;
+    }
+    .rs img {
+        width: 15px;
+    }
+    .copieright {
+        font-size: 9px;
+    }
+}

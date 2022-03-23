@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>search</title>
+</head>
+
+<body>
+    <!-- barre de navigation -->
+    <header style="background-color: #d35649;padding: 10px 0;width: 100%;" class="row align-items-center">
+        <div class="col-lg-3 col-xl-3 col-xxl-3 part1">
+            <a style="padding: 0px 3%;" href="#"><img src="assets/Images/group-2.svg" alt="image_groupe"></a>
+            <a style="text-decoration: none;" href="index.html">[Event]</a>
+        </div>
+        <div class="col-lg-5 col-xl-5 col-xxl-5 d-none d-lg-block d-xl-block d-xxl-block">
+            <br> <br>
+        </div>
+        <div style="margin: 0px 0px;" class="row col-lg-4 col-xl-4 col-xxl-4 part2">
+            <a class="col row" style="padding:0 1%;text-decoration: none;" href="search.html"><i class="fa-solid fa-magnifying-glass col"></i><b style="font-weight: lighter;" class="col d-none d-lg-block d-xl-block d-xxl-block">Search</b></a>
+            <a class="col row" style="padding:0 1%;text-decoration: none;" href="about.html"><i class="fa-solid fa-user col"></i><b style="font-weight: lighter;" class="col d-none d-lg-block d-xl-block d-xxl-block">About</b></a>
+            <a class="col row" style="padding:0 1%;text-decoration: none;" href=""><i class="fa-solid fa-rss col"></i><b style="font-weight: lighter;" class="col d-none d-lg-block d-xl-block d-xxl-block">Blog</b></a>
+            <a class="col row" style="padding:0 1%;text-decoration: none;" href=""><i class="fa-solid fa-bars col"></i><b style="font-weight: lighter;" class="col d-none d-lg-block d-xl-block d-xxl-block">More</b></a>
+        </div>
+    </header>
+
+
+    <!-- pour le corp de la page -->
+
+    <section style="text-align: center;background-color: #eee;margin: 10px 0;padding: 20px 5%;" class="container-fluid row d-block align-item-center">
+        <div style="color: #98a5a5;padding: 25px 0;"><b>Filter by location, host, subject, date, daytime:</b></div>
+        <div style="text-align: left;" class="row align-item-center justify-content-around">
+            <p class="col-sm-8 col-md-8 col-lg col-xl col-xxl"><b> Location : </b> <input style="width: 100%;" type="text"></p>
+            <p class="col-sm-8 col-md-8 col-lg col-xl col-xxl"><b> Host : </b> <input style="width: 100%;" type="text"></p>
+            <p class="col-sm-6 col-md-6 col-lg col-xl col-xxl"><b> Subject : </b> <input style="width: 100%;" type="text"></p>
+            <p class="col-sm-4 col-md-4 col-lg col-xl col-xxl"><b> Initial Date : </b> <input style="width: 100%;" type="date"></p>
+            <p class="col-xs-4 col-sm-4 col-md-4 col-lg col-xl col-xxl"><b> Final Date : </b> <input style="width: 100%;" type="date"></p>
+            <p class="col-xs-3 col-sm-3 col-md-3 col-lg col-xl col-xxl"><b> Daytime : </b> <select style="width: 100%;" type="select"></select></p>
+            <p class="col-xs-2 col-sm-2 col-md-2 col-lg col-xl col-xxl search_search"><button style="width: 100px; height: 30px;margin:20px 2px;">Search</button></p>
+            <p class="col-xs-2 col-sm-2 col-md-2 col-lg col-xl col-xxl clear_search"><button style="width: 150px; height: 30px;margin:20px 2px;"><i class="fa-solid fa-pen-to-square"></i>Clear filter</button></p>
+        </div>
+    </section>
+
+    <!-- pour les trois image -->
+
+
+    <section>
+        <div style="color: #98a5a5;font-weight: lighter; margin: 5px 0px;text-align: center;" class="d-none d-lg-block d-xl-block d-xxll-block">Search Result Found 7 [Event] Nearby</div>
+
+        <section class="row align-item-center trois_image" style="padding: 5px 10%;margin: 20px 0;">
+            <div style="background-color:#d35649;margin: 15px 3%;text-align: center;" class="col-lg col-xl col-xxl un_sur3">
+                <a style="color: white;text-decoration: none;" href="about.html">
+                    <figure>
+                        <figcaption style="text-align: center;text-shadow: 1px 1px white;">go to [gathering] example</figcaption><img style="width:75%;" src="assets/Images/group-2.svg" alt="">
+                    </figure>
+                </a>
+            </div>
+
+            <div style="background-color:#d35649;margin: 15px 3%;text-align: center;" class="col-lg col-xl col-xxl un_sur3">
+                <a style="color: white;text-decoration: none;text-shadow: 1px 1px white;" href="about.html">
+                    <figure>
+                        <figcaption style="text-align: center;">go to [gathering] example</figcaption><img style="width:75%" src="assets/Images/group-2.svg" alt="">
+                    </figure>
+                </a>
+            </div>
+
+            <div style="background-color: #d35649;margin: 15px 3%;text-align: center;" class="col-lg col-xl col-xxl un_sur3">
+                <a style="color: white;text-decoration: none;text-shadow: 1px 1px white;" href="about.html">
+                    <figure>
+                        <figcaption style="text-align: center;">go to [gathering] example</figcaption><img style="width: 75%;" src="assets/Images/group-2.svg" alt="">
+                    </figure>
+                </a>
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <!-- pour le footer -->
+
+    <footer class="container-fluid" style="background-color: black; margin-bottom: 0;">
+        <div style="padding: 50px 0;text-align: center;" class="row align-items-center d-none d-lg-block d-xl-block d-xxl-block en-ligne">
+            <a class="col" style="padding: 15px 2%;margin: 0 -3px;text-decoration: none;font-weight: bolder;border-top: solid 1px white;border-bottom: solid 1px white" href="index.html">HOME</i></a>
+            <a class="col" style="padding: 15px 2%;margin: 0 -3px;text-decoration: none;font-weight: bolder;border-top: solid 1px white;border-bottom: solid 1px white" href="search.html">SEARH</a>
+            <a class="col" style="padding: 15px 2%;margin: 0 -3px;text-decoration: none;font-weight: bolder;border-top: solid 1px white;border-bottom: solid 1px white" href="about.html">ABOUT US</a>
+            <a class="col" style="padding: 15px 2%;margin: 0 -3px;text-decoration: none;font-weight: bolder;border-top: solid 1px white;border-bottom: solid 1px white" href="index.html">ADVERTISE</a>
+            <img style="border: solid 2px black;border-radius: 90px; filter: invert(1);width: 10%;padding-top: 20px;" src="assets/Icones/mapsnavbar_icon.svg" alt="">
+            <a class="col" style="padding: 15px 2%;margin: 0 -3px;text-decoration: none;font-weight: bolder;border-top: solid 1px white;border-bottom: solid 1px white" href="index.html">FACEBOOK</i></a>
+            <a class="col" style="padding: 15px 2%;margin: 0 -3px;text-decoration: none;font-weight: bolder;border-top: solid 1px white;border-bottom: solid 1px white" href="index.html">TWITER</a>
+            <a class="col" style="padding: 15px 2%;margin: 0 -3px;text-decoration: none;font-weight: bolder;border-top: solid 1px white;border-bottom: solid 1px white" href="index.html">INSTAGRAM</a>
+            <a class="col" style="padding: 15px 2%;margin: 0 -3px;text-decoration: none;font-weight: bolder;border-top: solid 1px white;border-bottom: solid 1px white" href="index.html">BLOG</a>
+        </div>
+
+        <section style="padding: 50px 5%;text-align: center;margin: 0 0;" class="row align-items-center footer-none">
+            <div class="col">
+                <h4 style="color: white;">Subscribe</h4>
+                <input type="email" placeholder="Insert your e-mail here" name="mail">
+                <button style="border: none;border-radius: 5px;padding: 5px 20px;margin-left: -5px;"><b>send</b></button>
+            </div>
+            <div class="col-3">
+                <h4 style="color: white;">Contact</h4>
+                <p style="color: white;">Have a question or suggestion?</p>
+                <a style="color: #d35649;" href="mailto:?subject=Ask me anithing">Contact@events.com</a>
+            </div>
+            <div class="col-5">
+                <h4 style="color: white;">About</h4>
+                <p style="color: white;">[Events] is online plateform that works to improve and increase social life connections, when this we are nightmare that we are curently living in is over <a style="color: #d35649;" href="">Learn more</a></p>
+            </div>
+        </section>
+        <section style="background-color: #1f1f1f;padding: 20px; " class="row align-item-center ">
+            <div class="col rs ">
+                <a class="icon_footer" href="index.html"><i style="margin: 0 1%;" class="fa-brands fa-facebook-square"></i></a>
+                <a class="icon_footer" href="index.html"><i style="margin: 0 1%;" class="fa-brands fa-twitter"></i></a>
+                <a class="icon_footer" href="index.html"><i style="margin: 0 1%;" class="fa-brands fa-instagram"></i></a>
+                <a class="icon_footer" href="# "><i style="margin: 0 1%;" class="fa-brands fa-tumblr"></i></a>
+                <a class="icon_footer" href="# "><i style="margin: 0 1%;" class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div style="color: #eee; text-align: right; " class="col-8 copieright ">
+                &copie 2022[Events] Tsiorinjanahary RATSIMBAZAFY
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
